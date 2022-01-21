@@ -1,0 +1,24 @@
+.btn {
+    float: right;
+    background-color: lightgray;
+    color: white;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nav-item {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+nav ul li {
+    border-right: solid lightgray;
+    height: 25px;
+    /* margin: auto; */
+}
