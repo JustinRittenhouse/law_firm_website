@@ -1,0 +1,50 @@
+.who-we-are {
+    border: 1pt solid rgb(109, 22, 22);
+    background-color: rgb(109, 22, 22);
+    color: white;
+    padding: 20px 10px;
+}
+
+.links {
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: -40px
+
+}
+
+
+.links a {
+    color: white;
+    margin: 20px, 0
+
+}
+
+.img {
+    max-width: 100%;
+}
+
+h6 {
+    display: flex;
+    margin-top: 10px;
+}
+
+.pic-row-one {
+    display: flex;
+    max-width: 100%;
+    gap: 25px;
+    padding: 20px 0
+}
+
+.pic-row-two {
+    display: flex;
+    max-width: 100%;
+    gap: 25px;
+    padding: 20px 0;
+}
+
+.pic-row-three {
+    display: flex;
+    max-width: 100%;
+    gap: 25px;
+    padding: 20px 0;
+}
