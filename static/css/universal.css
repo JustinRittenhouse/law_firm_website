@@ -1,0 +1,21 @@
+article {
+    color: white;
+    background-size: absolute;
+    background-image: url(/static/images/nav_side.jpg)
+}
+
+li {
+    list-style-type: none;
+}
+
+h6 {
+    text-decoration: underline 2px;
+    padding: 15px;
+}
+
+
+
+.col {
+    columns: flex,
+        flex-column-reverse
+}
