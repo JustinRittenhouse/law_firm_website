@@ -1,3 +1,11 @@
+body {
+    background-image: url(/static/images/nza_background.jpg);
+}
+
+.container {
+    background-color: white;
+}
+
 article {
     color: white;
     background-size: absolute;
@@ -22,25 +30,26 @@ h6 {
     float: right;
     background-color: lightgray;
     color: white;
-    margin-right: 50px;
+    /* margin-right: 25px; */
+    border-radius: 0 0 5px 5px;
 }
 
 .logo img{
-    margin: 75px 50px 40px;
+    margin: 75px 0px 40px;
 }
 
 header .nav {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    margin: 0 50px 0;
+    margin: 0 0 30px;
     text-align: center;
     border-top: solid 3px;
     border-bottom: solid 3px;
 }
 
 header .nav-item {
-    margin: 0 20px 0;
+    margin: 0 -5px 0;
 }
 
 .nav-item {
@@ -65,9 +74,9 @@ nav ul li a {
     color: black;
 }
 
-footer {
+footer .nav {
     border-top: solid 3px;
-    margin: 10px 50px 0;
+    padding: 0 7% 0;
 }
 
 /* This section inspired by a post in stack overflow */
