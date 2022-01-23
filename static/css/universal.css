@@ -13,9 +13,10 @@ h6 {
     padding: 15px;
 }
 
+/* I'm editing this out too because it wasn't closed. If you were working on the col class, please edit this. -Justin
 .col {
     columns: flex,
-        flex-column-reverse
+        flex-column-reverse */
 
 .btn {
     float: right;
