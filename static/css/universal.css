@@ -9,7 +9,9 @@ body {
 article {
     color: white;
     background-size: absolute;
-    background-image: url(/static/images/nav_side.jpg)
+    background-image: url(/static/images/nav_side.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 li {
