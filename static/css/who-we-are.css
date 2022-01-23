@@ -8,7 +8,7 @@
 .links {
     text-decoration: none;
     list-style-type: none;
-    margin-left: -40px
+    margin-left: -40px;
 
 }
 
@@ -19,8 +19,12 @@
 
 }
 
+li a:hover{
+    color:lightgray;
+}
+
 .img {
-    max-width: 100%;
+    width: 100%;
 }
 
 h6 {
