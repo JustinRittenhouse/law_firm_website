@@ -1,12 +1,21 @@
 .background {
-    background-color: #c0b7b7;
-    width: 200x;
-    height: 400px;
-    padding: 12px;    
+    background-image: url(/static/images/other_links_background.jpg);
+    margin: 0px 0px 0px 10px;
+    width: 265px;
+    height: 500px;
+    padding: 30px 30px;
+    margin-bottom: 30px;
+   
 }
+
 
 .background img {
-    margin: 10px 10px 10px;
+    margin: 5px;
+    padding: 0px;
 }
 
+article {
+    margin-top: -35px;
+
+}
 
