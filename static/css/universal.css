@@ -21,25 +21,75 @@ h6 {
     float: right;
     background-color: lightgray;
     color: white;
+    margin-right: 50px;
 }
-.nav {
+
+.logo img{
+    margin: 75px 50px 40px;
+}
+
+header .nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
-    margin-top: 20px;
+    margin: 0 50px 0;
     text-align: center;
+    border-top: solid 3px;
+    border-bottom: solid 3px;
+}
+
+header .nav-item {
+    margin: 0 20px 0;
 }
 
 .nav-item {
-    display: flex;
-    align-self: center;
-    justify-content: center;
+    font-weight: 620;
 }
 
-nav ul li {
+.nav-link:hover {
+    text-decoration: none;
+    color: lightgray
+}
+
+nav p {
+    color: lightgray;
+}
+
+/* This was the old way to have borders in between navs */
+/* nav ul li {
     border-right: solid lightgray;
-    height: 25px;
-    /* margin: auto; */
+} */
+
+nav ul li a {
+    color: black;
+}
+
+footer {
+    border-top: solid 3px;
+    margin: 10px 50px 0;
+}
+
+/* This section inspired by a post in stack overflow */
+/* footer nav ul li {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+footer nav ul li span {
+    background: #fff;
+    padding: 0 10px;
+} */
+
+.fake-line {
+    color: lightgray
+}
+
+  /* I don't know what this is so I didn't delete it. -Justin*/
+/*    height: 25px;
+     margin: auto; */
 
 .second-content {
     border: 1pt solid rgb(109, 22, 22);
@@ -65,4 +115,3 @@ h6 {
 .third-content {
     font-size: 13px;
 }
-  
